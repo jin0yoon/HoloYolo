@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.user.holoyolo.UserInfoChangeActivity">
+
+    <TextView
+        android:id="@+id/textemail"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editnickname"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:layout_alignBottom="@+id/textemail"
+        android:textColor="#000000"
+        android:hint="사용할 닉네임을 입력해주세요"
+        android:textColorHint="#2345" />
+
+    <Button
+        android:id="@+id/btnsaveinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_mypage_1"
+        android:text="정보저장"
+        android:textColor="#B59892"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+</LinearLayout>

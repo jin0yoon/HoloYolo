@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B59892</color>
+    <color name="colorPrimaryDark">#B59892</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabtextcolor">#FFFF</color>
+    <color name="tabindicatorcolor">#FFFF</color>
+    <color name="actionBarText">#B59892</color>
+</resources>

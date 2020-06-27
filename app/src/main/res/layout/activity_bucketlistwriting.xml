@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.holoyolo.BoardWritingActivity1"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boardwritelinear1">
+
+        <Button
+            android:id="@+id/bucketlistsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_mypage_2"
+            android:text="저장하기"
+            android:textSize="20dp"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/bucketlisteditTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FA3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/boardwritelinear1"
+        android:hint="버킷리스트의 제목을 입력해주세요."
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+
+    <EditText
+        android:id="@+id/bucketlisteditTextContents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="버킷리스트의 내용을 입력해주세요."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/bucketlisteditTextName"
+        android:textColorHint="#FA3"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/bucketlistnickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bucketlisteditTextContents"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

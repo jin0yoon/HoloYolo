@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.holoyolo.PlacePickerActivity">
+
+    <Button
+        android:id="@+id/btngetgps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="googlePlacePicker"
+        android:text="장소를 얻어와보자"/>
+
+    <TextView
+        android:id="@+id/tvPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:label="Place Picker"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

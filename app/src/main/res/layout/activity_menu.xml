@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.holoyolo.MenuActivity">>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="회원정보"/>
+
+    <Button
+        android:id="@+id/btn_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="음식"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/btn_travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여행"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/btn_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문화"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/btn_bucket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버킷리스트"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/btn_mypage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mypage"
+        android:layout_gravity="left"/>
+
+</LinearLayout>

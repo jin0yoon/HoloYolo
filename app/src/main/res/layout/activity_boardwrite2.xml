@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.holoyolo.BoardWritingActivity2"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/boardwrite2linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B59892">
+
+        <Button
+            android:id="@+id/btngetgps1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="googlePlacePicker"
+            android:text="장소"
+            android:textStyle="bold"
+            android:background="@drawable/button_mypage_1"
+            android:textColor="#B59892" />
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="110dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btngetgps1"
+            android:text="파일"
+            android:textStyle="bold"
+            android:background="@drawable/button_mypage_1"
+            android:textColor="#B59892"/>
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_height="wrap_content"
+            android:layout_width="110dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/button_choose_image"
+            android:text="저장"
+            android:textStyle="bold"
+            android:background="@drawable/button_mypage_1"
+            android:textColor="#B59892"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/boardwrite2linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/boardwrite2linear1"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B59892"
+            android:hint="Latitude" />
+
+        <EditText
+            android:id="@+id/editTextLongtitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorHint="#B59892"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/editTextLatitude"
+            android:hint="Longtitude" />
+
+        <EditText
+            android:id="@+id/placename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/editTextLongtitude"
+            android:textColor="#B59892" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardwrite2linear2">
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

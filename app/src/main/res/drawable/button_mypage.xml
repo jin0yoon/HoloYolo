@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 평상시 -->
+    <item android:state_focused="false" android:state_pressed="false">
+        <shape>
+            <solid android:color="#FFFF" />
+
+            <!-- 테두리 내부 여백 설정 -->
+            <padding
+                android:bottom="5dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="5dp" />
+
+            <!-- 테두리 설정: 두께, 색상 -->
+            <stroke
+                android:width="1dp"
+                android:color="#CCCC" />
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+
+    <!-- 클릭했을 때 -->
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape>
+            <solid android:color="#a36ac9"/>
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+
+</selector>
